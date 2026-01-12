@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>PortCity | Hakkında</title>
+  <style>
+    <body class="light-theme">
+                             {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f6fbff;
+    }
+
+    .navbar {
+      background: #003b5c;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar a {
+      color: white;
+      margin-left: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .header {
+      background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/23/b7/79/caption.jpg?w=900&h=500&s=1");
+      background-size: cover;
+      background-position: center;
+      height: 45vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+
+    .header h1 {
+      font-size: 55px;
+      text-shadow: 2px 2px 10px #000;
+    }
+
+    .section {
+      padding: 50px 80px;
+    }
+
+    h2 {
+      color: #003b5c;
+      font-size: 34px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      line-height: 1.7;
+      font-size: 18px;
+      color: #333;
+    }
+
+    /* Kartlar */
+    .cards {
+      display: flex;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .card {
+      flex: 1;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    /* Timeline */
+    .timeline {
+      border-left: 4px solid #003b5c;
+      padding-left: 25px;
+      margin-top: 25px;
+    }
+
+    .timeline div {
+      margin-bottom: 25px;
+    }
+
+    .timeline span {
+      font-weight: bold;
+      color: #003b5c;
+    }
+
+    /* Galeri */
+    .gallery {
+      display: flex;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .gallery img {
+      width: 32%;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    }
+
+    /* Fiyat Tablosu */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 25px;
+    }
+    th, td {
+      border: 1px solid #777;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background: #dff2ff;
+    }
+
+    /* Footer */
+    .footer {
+      background: #003b5c;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<div class="navbar">
+  <div style="color:white; font-size:22px; font-weight:bold;">PortCity</div>
+  <div>
+    <a href="index.html" class="nav-item menu-link">Ana Sayfa</a>
+    <a href="about.html" class="nav-item menu-link">Hakkında</a>
+    <a href="services.html" class="nav-item menu-link">Aktiviteler</a>
+    <a href="contact.html" class="nav-item menu-link">İletişim</a>
+    <button id="themeBtn">🎨 Tema Değiştir</button>
+
+  </div>
+</div>
+
+<!-- HEADER -->
+<div class="header">
+  <h1>PortCity Hakkında</h1>
+</div>
+
+<!-- GENEL BİLGİ -->
+<div class="section">
+  <h2>PortCity Nedir?</h2>
+  <p>
+    PortCity, deniz turizmini modern şehir yaşamıyla birleştiren, özel olarak planlanmış
+    bir marina yaşam merkezidir. Konum olarak Akdeniz'in en güzel sahil hattında bulunan
+    PortCity; lüks yat limanı, sahil aktiviteleri, restoran ve eğlence alanlarıyla
+    bölgedeki en kapsamlı turistik projeler arasına girmiştir.
+  </p>
+  <p>
+    Her yıl milyonlarca ziyaretçiyi ağırlamaya hazırlanan PortCity;
+    <b>denizle iç içe yaşayan, kültür dolu, sosyal ve canlı bir marina hayatı</b> sunar.
+  </p>
+</div>
+
+<!-- ÖZELLİKLER -->
+<div class="section" style="background:#eaf7ff;">
+  <h2>Marina Özellikleri</h2>
+
+  <div class="cards">
+    <div class="card">
+      <img src="https://www.torunlargyo.com.tr/Content/upload/netsel_marina.jpg" alt="PortCity" class="zoom-img">
+      <h3>500+ Tekne Kapasitesi</h3>
+      <p>Modern güvenlik sistemleri ile donatılmış ultra güvenli bağlama alanları.</p>
+    </div>
+
+    <div class="card"><img src="https://cache.marriott.com/is/image/marriotts7prod/rz-istrz-restaurant-40413:Feature-Hor?wid=1920&fit=constrain" alt="PortCity" class="zoom-img">
+
+      <h3>Lüks Restoran Alanı</h3>
+      <p>Gurme şeflerin hazırladığı dünya mutfakları ve deniz manzaralı özel oturma alanları.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://lh5.googleusercontent.com/proxy/wyG_5ctkfkPBzJ2VKv_819UtOvep8ScJoGd9bEcLlIPlx64P-8atkxSblP_MOn9AaQYrZP7ZpPVLJdq6jJqP_QzJkd9IlrLMmXix44iKIgov-7pNOWO_Lgn5AP25SGI7gwng3XP2Sy-TMrJ1hZDkFqy_IoIKTKeyan8wevN8kJq4D8A" alt="PortCity" class="zoom-img">
+
+      <h3>Eğlence Merkezi</h3>
+      <p>Canlı konserler, su sporları, etkinlik sahneleri ve çocuk eğlence alanları.</p>
+    </div>
+  </div>
+</div>
+
+<!-- YAPILABİLECEK ETKİNLİKLER -->
+<div class="section">
+  <h2>PortCity’de Yapılabilecek Etkinlikler</h2>
+
+  <ul style="font-size:18px; line-height:1.8;">
+    <li><b>Gün Batımı Tekne Turları:</b> Rehber eşliğinde 1 saatlik tur.</li>
+    <li><b>Su Sporları:</b> Kano, paddle board, jetski ve grup su oyunları.</li>
+    <li><b>Sahil Yoga ve Spor Etkinlikleri:</b> Sabah yoga seansları ve sahil koşu grupları.</li>
+    <li><b>Çocuk Aktiviteleri:</b> Kum oyunları, sahil parkuru ve dans etkinlikleri.</li>
+    <li><b>Akşam Eğlenceleri:</b> Canlı müzik, DJ performansları, gece pazarları.</li>
+  </ul>
+</div>
+
+<!-- FİYAT LİSTESİ -->
+<div class="section" style="background:#eaf7ff;">
+  <h2>Etkinlik Fiyat Listesi</h2>
+  <p>Aşağıdaki ücretler PortCity 2025 sezonu için geçerlidir:</p>
+
+  <table>
+    <tr>
+      <th>Etkinlik</th>
+      <th>Fiyat</th>
+      <th>Süre</th>
+    </tr>
+    <tr>
+      <td>Gün Batımı Teknesi</td>
+      <td> 80 Euro </td>
+      <td>1 Saat</td>
+    </tr>
+    <tr>
+      <td>Paddle Board</td>
+      <td>40 Euro</td>
+      <td>45 Dakika</td>
+    </tr>
+    <tr>
+      <td>Sahil Yoga Seansı</td>
+      <td>30 Euro </td>
+      <td>1 Saat</td>
+    </tr>
+    <tr>
+      <td>Jetski Deneyimi</td>
+      <td>20 Euro</td>
+      <td>20 Dakika</td>
+    </tr>
+    <tr>
+      <td>Çocuk Aktivite Alanı</td>
+      <td> 10 Euro </td>
+      <td>1 Saat</td>
+    </tr>
+  </table>
+</div>
+
+<!-- MARİNA FOTOĞRAFLARI -->
+<div class="section">
+  <h2>PortCity Marina Fotoğrafları</h2>
+
+  <div class="gallery">
+    <img src="https://www.icholding.com.tr/Upload/ProjeGalery/foto10-3v.jpg">
+    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/23/b9/82/caption.jpg?w=900&h=500&s=1">
+    <img src="https://www.muglam.com.tr/wp-content/uploads/2025/08/image-521-1024x555.png">
+  </div>
+</div>
+
+<!-- İFRAME -->
+<div class="section" style="background:#eaf7ff;">
+  <h2>Marina Kültürü Hakkında Daha Fazla Bilgi</h2>
+
+  <iframe src="https://tr.wikipedia.org/wiki/Marina"
+          width="100%" height="350"
+          style="border-radius:10px; border:1px solid #ccc;"></iframe>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  © 2025 PortCity | Tüm Hakları Saklıdır
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
